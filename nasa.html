@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NASA</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .navbar {
+      padding: 0 30px;
+      height: 12vh;
+      width: 100%;
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 25px;
+    }
+
+    .navbar-left {
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar-end {
+      display: flex;
+      gap: 20px;
+      font-size: 20px;
+    }
+
+    .hero {
+      height: 88vh;
+      width: 100%;
+      background-image: url(./image/nasa2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: white;
+      position: relative;
+    }
+
+    .heading {
+      position: absolute;
+      top: 35%;
+      left: 18px;
+      font-size: 30px;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: 70px;
+    }
+
+    .live-badge {
+      display: flex;
+      align-items: center;
+      border: 1px solid red;
+      font-size: small;
+      padding: 4px 8px;
+    }
+
+    .live-badge:hover {
+      background-color: red;
+    }
+
+    .paragraph {
+      position: absolute;
+      top: 48%;
+      left: 18px;
+      font-size: 20px;
+    }
+
+    .nasa-button {
+      position: absolute;
+      top: 60%;
+      left: 18px;
+      font-size: 15px;
+      padding: 10px 60px 10px 60px;
+      background-color: red;
+      color: white;
+      border-radius: 6px;
+      border: none;
+    }
+    .nasa-button:hover{
+      background-color: rgb(193, 85, 85);
+    }
+
+    .lower {
+      position: absolute;
+      top: 85%;
+      left: 18px;
+      font-size: 15px;
+      display: flex;
+      gap: 150px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .lower-button {
+      position: absolute;
+      top: 90%;
+      left: 18px;
+      font-size: 15px;
+      display: flex;
+      gap: 150px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .b2 {
+      font-size: 20px;
+      color: white;
+      background-color: transparent;
+      border: none;
+    }
+
+    .line {
+      position: absolute;
+      top: 80%;
+      left: 18px;
+      display: flex;
+      gap: 17px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-left">
+      <p>Explore</p>
+      <input class="search-input" type="text" placeholder="Search"/>
+    </div>
+    <div class="navbar-center">
+      <img src="./image/nasa.png" alt="NASA Logo" class="logo"/>
+    </div>
+    <div class="navbar-end">
+      <p>News & Events ⮟</p>
+      <p>Multimedia ⮟</p>
+      <p>NASA+</p>
+      <div class="live-badge">
+        <p>LIVE</p>
+      </div>
+    </div>
+  </div>
+  <div class="hero">
+    <div class="heading">
+      <h1>For The Benefit Of All</h1>
+    </div>
+    <p class="paragraph">
+      NASA investigates the unknown in air and space, innovates for the benefit of <br>
+      humanity, and inspires the world through discovery.
+    </p>
+    <button class="nasa-button"><h2>NASA Missions</h2></button>
+    <div class="lower">
+      <p>CREWED LUNAR FLYBY</p>
+      <p>PLANETARY DEFENSE</p>
+      <p>COSMIC WONDERS</p>
+    </div>
+    <div class="lower-button">
+      <button class="b2" style="padding-left: 12px;">Artemis</button>
+      <button class="b2" style="padding-left: 105px;">NEO Surveyor</button>
+      <button class="b2" style="padding-left: 35px;">Nancy Grace Roman Space Telescope</button>
+    </div>
+    <div class="line">
+      <p>______________________________________</p>
+      <p>_____________________________________</p>
+      <p>___________________________________________</p>
+    </div>
+  </div>
+</body>
+</html>
