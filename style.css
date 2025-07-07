@@ -1,0 +1,165 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .navbar {
+     padding: 0 30px;
+     height: 12vh;
+     width: 100%;
+     background-color: black;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 25px;
+ }
+
+ .navbar-left {
+     display: flex;
+     gap: 20px;
+ }
+
+ .navbar-end {
+     display: flex;
+     gap: 20px;
+     font-size: 20px;
+ }
+
+ .hero {
+     height: 88vh;
+     width: 100%;
+     background-image: url(./image/nasa2.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     color: white;
+     position: relative;
+ }
+
+ .heading {
+     position: absolute;
+     top: 35%;
+     left: 18px;
+     font-size: 30px;
+     font-weight: bold;
+ }
+
+ .logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 80px;
+     height: 70px;
+ }
+
+ .live-badge {
+     display: flex;
+     align-items: center;
+     border: 1px solid red;
+     font-size: small;
+     padding: 4px 8px;
+ }
+
+ .live-badge:hover {
+     background-color: red;
+ }
+
+ .paragraph {
+     position: absolute;
+     top: 48%;
+     left: 18px;
+     font-size: 21px;
+     margin-top: 10px;
+ }
+
+ .nasa-button {
+     position: absolute;
+     top: 60%;
+     left: 18px;
+     font-size: 15px;
+     padding: 10px 90px 10px 90px;
+     background-color: red;
+     color: white;
+     border-radius: 6px;
+     border: none;
+     margin-top: 10px;
+ }
+
+ .nasa-button:hover {
+     background-color: rgb(193, 85, 85);
+ }
+
+ .lower {
+     position: absolute;
+     top: 85%;
+     left: 18px;
+     font-size: 15px;
+     display: flex;
+     gap: 150px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .lower-button {
+     position: absolute;
+     top: 90%;
+     font-size: 20px;
+     display: flex;
+     gap: 150px;
+     font-weight: bold;
+     padding: 0 20px;
+
+ }
+
+ .b2 {
+     font-size: 20px;
+     color: white;
+     background-color: transparent;
+     border: none;
+     display: flex;
+     align-items: center;
+ }
+
+ .line {
+     position: absolute;
+     top: 80%;
+     left: 18px;
+     display: flex;
+     gap: 17px;
+ }
+
+ .bi-arrow-up-right-circle-fill {
+     color: red;
+     background-color: white;
+     border-radius: 40px;
+     display: inline-flex;
+ }
+
+ .bi-pause-circle {
+     position: absolute;
+     top: 85%;
+     display: flex;
+     right: 30px;
+     font-size: 45px;
+     background-color: rgb(88, 76, 76);
+     border-radius: 30px;
+ }
+
+ .image1 {
+     position: absolute;
+     top: 84%;
+     display: flex;
+     right: 110px;
+     width: 50px;
+     height: 50px;
+     border-radius: 48px;
+ }
+
+ .image1 img {
+     width: 51px;
+     height: 51px;
+     border-radius: 60px;
+     border: 3px solid rgb(247, 244, 244);
+
+ }
